@@ -64,7 +64,7 @@
         ipsum dolor sit amet"
       </p>
 
-      <a href="#service" class="btn">Our Services</a>
+      <a href="" class="btn">Our Services</a>
     </div>
   </div>
 </section>
