@@ -8,7 +8,7 @@
   onMount(() => {
     setTimeout(() => {
       loading = false;
-    }, 3000); // Adjust the delay as needed
+    }, 500); // Adjust the delay as needed
   });
 </script>
 
