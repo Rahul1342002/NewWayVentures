@@ -31,7 +31,7 @@
     <div class="container">
       <div class="footer-brand">
         <a href="#" class="logo">
-          <img class="w-[160px]" src="/logo.png" alt="Homeverse logo" />
+          <img class="w-[160px]" src="/footer-logo.png" alt="Homeverse logo" />
         </a>
 
         <p class="section-text">
