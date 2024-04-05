@@ -9,7 +9,7 @@
         <h2 class="h2 card-title">Looking for a dream home?</h2>
 
         <p class="card-text">
-          We can help you realize your dream of a new home
+          We can help you realize your dream of a new home..
         </p>
       </div>
 
