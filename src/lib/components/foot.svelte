@@ -34,9 +34,16 @@
           <img class="w-[160px]" src="/footer-logo.png" alt="Homeverse logo" />
         </a>
 
+        <p class="font-bold underline">Venture Address</p>
+
         <p class="section-text">
-          Lorem Ipsum is simply dummy text of the and typesetting industry.
-          Lorem Ipsum is dummy text of the printing.
+          Ravada,Bhogapuram Vizianagaram(Dt.) Andhrapradesh.
+        </p>
+        <p class="font-bold underline">Office Address</p>
+
+        <p class="section-text">
+          53-23-9/1, Hasansha Arcade, Beside Kakatiya Function Hall NH-5
+          Maddilapalem, Visakhapatnam 530013
         </p>
       </div>
 
@@ -47,27 +54,27 @@
           </li>
 
           <li>
-            <a href="#" class="footer-link">About</a>
+            <a href="#home" class="footer-link">Home</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Blog</a>
+            <a href="#about" class="footer-link">About</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">All Products</a>
+            <a href="#pricing" class="footer-link">Pricing</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Locations Map</a>
+            <a href="#property" class="footer-link">Property</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">FAQ</a>
+            <a href="#aminities" class="footer-link">Aminities</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Contact us</a>
+            <a href="#contact" class="footer-link">Contact</a>
           </li>
         </ul>
 

@@ -40,7 +40,7 @@
 
   <div class="header-bottom">
     <div class="container">
-      <a href="#" class="logo">
+      <a href="#home" class="logo">
         <img class="w-[90px]" src="/logo.png" alt="Homeverse logo" />
       </a>
 
@@ -62,30 +62,36 @@
         <div class="navbar-bottom">
           <ul class="navbar-list">
             <li>
-              <a href="#" class="navbar-link" data-nav-link>Home</a>
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
             </li>
 
             <li>
-              <a href="#" class="navbar-link" data-nav-link>About</a>
+              <a href="#about" class="navbar-link" data-nav-link>About</a>
             </li>
 
             <li>
-              <a href="#" class="navbar-link" data-nav-link>Service</a>
+              <a href="#pricing" class="navbar-link" data-nav-link>Pricing</a>
             </li>
 
             <li>
-              <a href="#" class="navbar-link" data-nav-link>Property</a>
+              <a href="#property" class="navbar-link" data-nav-link>Property</a>
             </li>
 
             <li>
-              <a href="#" class="navbar-link" data-nav-link>Contact</a>
+              <a href="#aminities" class="navbar-link" data-nav-link
+                >Aminities</a
+              >
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
             </li>
           </ul>
         </div>
       </nav>
 
       <div class="header-bottom-actions">
-        <button
+        <!-- <button
           class="header-bottom-actions-btn rounded-2xl"
           aria-label="Search"
           on:click={() => (window.location.href = "/Login-Register")}
@@ -93,7 +99,13 @@
           <i class="fa-solid fa-right-to-bracket md:ml-3 3xs:ml-1 text-xl"></i>
 
           <span>Login</span>
-        </button>
+        </button> -->
+
+        <button
+          id="button"
+          class="btn p-3"
+          on:click={() => (window.location.href = "#contact")}>Book Now</button
+        >
 
         <button
           class="header-bottom-actions-btn rounded-2xl"
@@ -109,3 +121,6 @@
     </div>
   </div>
 </header>
+
+<style>
+</style>

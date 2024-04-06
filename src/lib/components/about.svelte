@@ -2,21 +2,16 @@
   <div class="container">
     <figure class="about-banner">
       <img
-        src="https://codewithsadee.github.io/homeverse/assets/images/about-banner-1.png"
+        src="https://images.pexels.com/photos/1838640/pexels-photo-1838640.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         alt="House interior"
-      />
-
-      <img
-        src="https://codewithsadee.github.io/homeverse/assets/images/about-banner-2.jpg"
-        alt="House interior"
-        class="abs-img"
+        class="rounded-3xl"
       />
     </figure>
 
     <div class="about-content">
       <p class="section-subtitle text-[#0B294F]">About Us</p>
 
-      <h2 class="h2 section-title">
+      <h2 class="h2 section-title font-bold">
         The Leading Real Estate Rental Marketplace.
       </h2>
 

@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 /*-----------------------------------*\
   #style.css
 \*-----------------------------------*/
@@ -69,7 +71,7 @@
      * spacing
      */
   
-    --section-padding: 100px;
+    --section-padding: 50px;
   
     /**
      * shadow
@@ -477,7 +479,11 @@
     font-weight: var(--fw-700);
   }
   
-  .hero-title { margin-bottom: 20px; }
+  .hero-title { 
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #0B294F;
+   }
   
   .hero-text {
     color: var(--cadet);
@@ -841,6 +847,10 @@
     background: var(--cultured-2);
     padding-block: var(--section-padding);
   }
+  .features1 {
+    
+    padding-block: var(--section-padding);
+  }
   
   .features-list {
     display: flex;
@@ -868,7 +878,7 @@
   .features-card:is(:hover, :focus) { background: var(--orange-soda); }
   
   .features-card .card-icon {
-    background: var(--seashell);
+    background: #a0e5ff;
     color: var(--orange-soda);
     width: 60px;
     height: 60px;
@@ -883,8 +893,8 @@
   .features-card .card-title {
     color: var(--dark-jungle-green);
     font-family: var(--ff-poppins);
-    font-size: var(--fs-6);
-    font-weight: var(--fw-600);
+    font-size: 15px;
+    font-weight: bold;
     text-align: center;
     transition: var(--transition);
   }
@@ -1309,7 +1319,7 @@
      * ABOUT
      */
   
-    .about .section-title { max-width: 30ch; }
+    .about .section-title { max-width: 30ch;color: #0B294F; }
   
     .about-text { max-width: 55ch }
   
