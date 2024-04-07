@@ -4,7 +4,7 @@
 
     <ul class="features-list">
       <li>
-        <a href="#" class="features-card">
+        <div class="features-card">
           <div class="card-icon">
             <i class="fa-solid fa-plane"></i>
           </div>
@@ -16,11 +16,11 @@
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
           </div>
-        </a>
+        </div>
       </li>
 
       <li>
-        <a href="#" class="features-card">
+        <div class="features-card">
           <div class="card-icon">
             <i class="fa-solid fa-road"></i>
           </div>
@@ -30,11 +30,11 @@
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
           </div>
-        </a>
+        </div>
       </li>
 
       <li>
-        <a href="#" class="features-card">
+        <div class="features-card">
           <div class="card-icon">
             <i class="fa-solid fa-torii-gate"></i>
           </div>
@@ -46,11 +46,11 @@
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
           </div>
-        </a>
+        </div>
       </li>
 
       <li>
-        <a href="#" class="features-card">
+        <div class="features-card">
           <div class="card-icon">
             <i class="fa-solid fa-school"></i>
           </div>
@@ -62,11 +62,11 @@
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
           </div>
-        </a>
+        </div>
       </li>
 
       <li>
-        <a href="#" class="features-card">
+        <div class="features-card">
           <div class="card-icon">
             <i class="fa-solid fa-equals"></i>
           </div>
@@ -78,11 +78,11 @@
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
           </div>
-        </a>
+        </div>
       </li>
 
       <li>
-        <a href="#" class="features-card">
+        <div class="features-card">
           <div class="card-icon">
             <i class="fa-solid fa-umbrella-beach"></i>
           </div>
@@ -95,7 +95,7 @@
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
           </div>
-        </a>
+        </div>
       </li>
     </ul>
   </div>

@@ -6,7 +6,7 @@
 
     <ul class="features-list">
       <li>
-        <a href="#" class="features-card">
+        <div class="features-card">
           <div class="card-icon">
             <i class="fa-solid fa-archway"></i>
           </div>
@@ -16,11 +16,11 @@
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
           </div>
-        </a>
+        </div>
       </li>
 
       <li>
-        <a href="#" class="features-card">
+        <div class="features-card">
           <div class="card-icon">
             <i class="fa-solid fa-torii-gate"></i>
           </div>
@@ -30,11 +30,11 @@
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
           </div>
-        </a>
+        </div>
       </li>
 
       <li>
-        <a href="#" class="features-card">
+        <div class="features-card">
           <div class="card-icon">
             <i class="fa-solid fa-shield-halved"></i>
           </div>
@@ -44,11 +44,11 @@
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
           </div>
-        </a>
+        </div>
       </li>
 
       <li>
-        <a href="#" class="features-card">
+        <div class="features-card">
           <div class="card-icon">
             <i class="fa-solid fa-cloud-rain"></i>
           </div>
@@ -58,11 +58,11 @@
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
           </div>
-        </a>
+        </div>
       </li>
 
       <li>
-        <a href="#" class="features-card">
+        <div class="features-card">
           <div class="card-icon">
             <i class="fa-solid fa-lightbulb"></i>
           </div>
@@ -72,11 +72,11 @@
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
           </div>
-        </a>
+        </div>
       </li>
 
       <li>
-        <a href="#" class="features-card">
+        <div class="features-card">
           <div class="card-icon">
             <i class="fa-solid fa-sink"></i>
           </div>
@@ -86,11 +86,11 @@
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
           </div>
-        </a>
+        </div>
       </li>
 
       <li>
-        <a href="#" class="features-card">
+        <div class="features-card">
           <div class="card-icon">
             <i class="fa-solid fa-road"></i>
           </div>
@@ -100,11 +100,11 @@
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
           </div>
-        </a>
+        </div>
       </li>
 
       <li>
-        <a href="#" class="features-card">
+        <div class="features-card">
           <div class="card-icon">
             <i class="fa-solid fa-faucet-drip"></i>
           </div>
@@ -114,10 +114,10 @@
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
           </div>
-        </a>
+        </div>
       </li>
       <li>
-        <a href="#" class="features-card">
+        <div class="features-card">
           <div class="card-icon">
             <i class="fa-solid fa-bolt"></i>
           </div>
@@ -127,10 +127,10 @@
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
           </div>
-        </a>
+        </div>
       </li>
       <li>
-        <a href="#" class="features-card">
+        <div class="features-card">
           <div class="card-icon">
             <i class="fa-solid fa-basketball"></i>
           </div>
@@ -140,7 +140,7 @@
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
           </div>
-        </a>
+        </div>
       </li>
     </ul>
   </div>

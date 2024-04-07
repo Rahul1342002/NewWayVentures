@@ -8,18 +8,18 @@
       <li>
         <div class="property-card">
           <figure class="card-banner">
-            <a href="#">
+            <div>
               <img
                 src="/img1.png"
                 alt="New Apartment Nice View"
                 class="w-100"
               />
-            </a>
+            </div>
           </figure>
 
           <div class="card-content">
             <h3 class="h3 card-title">
-              <a href="#">New Apartment Nice View</a>
+              <div>New Apartment Nice View</div>
             </h3>
 
             <p class="card-text">
@@ -33,16 +33,16 @@
       <li>
         <div class="property-card">
           <figure class="card-banner">
-            <a href="#">
+            <div >
               <img src="/img2.png" alt="Modern Apartments" class="w-100" />
-            </a>
+            </div>
 
-            <div class="card-badge orange">For Sales</div>
+            
           </figure>
 
           <div class="card-content">
             <h3 class="h3 card-title">
-              <a href="#">Modern Apartments</a>
+              <div>Modern Apartments</div>
             </h3>
 
             <p class="card-text">
@@ -56,14 +56,14 @@
       <li>
         <div class="property-card">
           <figure class="card-banner">
-            <a href="#">
+            <div>
               <img src="/img2.png" alt="Comfortable Apartment" class="w-100" />
-            </a>
+            </div>
           </figure>
 
           <div class="card-content">
             <h3 class="h3 card-title">
-              <a href="#">Comfortable Apartment</a>
+              <div>Comfortable Apartment</div>
             </h3>
 
             <p class="card-text">
@@ -77,18 +77,18 @@
       <li>
         <div class="property-card">
           <figure class="card-banner">
-            <a href="#">
+            <div>
               <img
                 src="/img1.png"
                 alt="Luxury villa in Rego Park"
                 class="w-100"
               />
-            </a>
+            </div>
           </figure>
 
           <div class="card-content">
             <h3 class="h3 card-title">
-              <a href="#">Luxury villa in Rego Park</a>
+              <div>Luxury villa in Rego Park</div>
             </h3>
 
             <p class="card-text">
