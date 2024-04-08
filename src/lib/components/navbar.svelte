@@ -46,7 +46,7 @@
 
       <nav class="navbar" class:active={navbarOpen}>
         <div class="navbar-top">
-          <a href="#" class="logo">
+          <a href="/" class="logo">
             <img src="/logo.png" alt="Homeverse logo" />
           </a>
 
@@ -62,23 +62,23 @@
         <div class="navbar-bottom">
           <ul class="navbar-list">
             <li>
-              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+              <a href="/#home" class="navbar-link" data-nav-link>Home</a>
             </li>
 
             <li>
-              <a href="#about" class="navbar-link" data-nav-link>About</a>
+              <a href="/#about" class="navbar-link" data-nav-link>About</a>
             </li>
 
             <li>
-              <a href="#pricing" class="navbar-link" data-nav-link>Pricing</a>
+              <a href="/#pricing" class="navbar-link" data-nav-link>Pricing</a>
             </li>
 
             <li>
-              <a href="#property" class="navbar-link" data-nav-link>Property</a>
+              <a href="/#property" class="navbar-link" data-nav-link>Property</a>
             </li>
 
             <li>
-              <a href="#aminities" class="navbar-link" data-nav-link
+              <a href="/#aminities" class="navbar-link" data-nav-link
                 >Aminities</a
               >
             </li>
