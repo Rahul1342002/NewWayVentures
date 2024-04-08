@@ -9,6 +9,7 @@
   import Layouthigh from "$lib/components/layout-high.svelte";
   import Locationhigh from "$lib/components/location-high.svelte";
   import Premium from "$lib/components/premium.svelte";
+  import Video from "$lib/components/video.svelte";
 </script>
 
 <section class="">
@@ -20,6 +21,7 @@
     <Properties />
     <Layouthigh />
     <Locationhigh />
+    <Video />
     <Contact />
     <Foot />
   </div>

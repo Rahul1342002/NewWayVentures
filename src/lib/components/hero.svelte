@@ -9,7 +9,8 @@
 
       <h2 class="h1 hero-title font-bold">
         <span class="text-[42px]"> New Way Ventures presents</span>
-        <span class="text-[#00ADED] project text-[90px] leading-[90px]"
+        <span
+          class="text-[#00ADED] project xs:text-[90px] text-[40px] leading-[90px]"
           >Aero Commercial</span
         ><span class="text-2xl">Where Luxury Meets Affordability.</span>
       </h2>
@@ -19,7 +20,9 @@
         Affordability Converge Seamlessly.
       </p>
 
-      <button class="btn" on:click={() => (window.location.href = "#contact")}>Make An Enquiry</button>
+      <button class="btn" on:click={() => (window.location.href = "#contact")}
+        >Make An Enquiry</button
+      >
     </div>
 
     <figure class="hero-banner">
