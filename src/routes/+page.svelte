@@ -1,4 +1,5 @@
 <script>
+   import OngoingProjectsButton from '$lib/components/ongoingproject.svelte';
   import Navbar from "$lib/components/navbar.svelte";
 
   import Hero from "$lib/components/hero.svelte";
@@ -22,5 +23,6 @@
     <Locationhigh />
     <Contact />
     <Foot />
+    <OngoingProjectsButton />
   </div>
 </section>
