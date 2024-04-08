@@ -78,65 +78,30 @@
           </li>
         </ul>
 
-        <ul class="footer-list">
+        <ul class="footer-list leading-10">
           <li>
-            <p class="footer-list-title">Services</p>
+            <p class="footer-list-title">Locations</p>
           </li>
 
-          <li>
-            <a href="#" class="footer-link">Order tracking</a>
-          </li>
+          <li>Ravada</li>
 
-          <li>
-            <a href="#" class="footer-link">Wish List</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Login</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">My account</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Terms & Conditions</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Promotional Offers</a>
-          </li>
+          <li>Bhogapuram ,</li>
+          <li>Vizianagaram (Dt.)</li>
         </ul>
 
-        <ul class="footer-list">
-          <li>
-            <p class="footer-list-title">Customer Care</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Login</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">My account</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Wish List</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Order tracking</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">FAQ</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Contact us</a>
-          </li>
-        </ul>
+        <div>
+          <!-- <iframe class="rounded-2xl w-[100%] xl:w-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.5764681637656!2d83.32984371488234!3d17.811591387825697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a395befa9dda303%3A0x5781c56a5df412!2sBaba%20Institute%20of%20Technology%20%26%20Sciences!5e0!3m2!1sen!2sin!4v1689674946811!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+          <iframe
+            class="rounded-2xl w-[100%] xl:w-auto"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d950.0522876250478!2d83.31621236951571!3d17.734781698950812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a394300219fa9fb%3A0xc68c92f48f78c2ff!2sBVR%20New%20Way%20Ventures!5e0!3m2!1sen!2sin!4v1712559593957!5m2!1sen!2sin"
+            width="600"
+            height="350"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
     </div>
   </div>
