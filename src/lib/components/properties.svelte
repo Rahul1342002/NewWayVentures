@@ -33,11 +33,9 @@
       <li>
         <div class="property-card">
           <figure class="card-banner">
-            <div >
+            <div>
               <img src="/img2.png" alt="Modern Apartments" class="w-100" />
             </div>
-
-            
           </figure>
 
           <div class="card-content">
@@ -96,6 +94,7 @@
               Renovated With New Wood
             </p>
           </div>
+        </div>
       </li>
     </ul>
   </div>

@@ -12,12 +12,13 @@
       <p class="section-subtitle text-[#0B294F]">About Us</p>
 
       <h2 class="h2 section-title font-bold">
-        The Leading Real Estate Rental Marketplace.
+        Discover Our Story: Pioneering Excellence in Real Estate Development.
       </h2>
 
       <p class="about-text">
-        Over 39,000 people work for us in more than 70 countries all over the
-        This breadth of global coverage, combined with specialist services
+        Elevating lifestyles through visionary real estate solutions, we
+        redefine luxury with innovation and integrity. Experience excellence in
+        every detail with our distinguished portfolio of properties.
       </p>
 
       <ul class="about-list">
@@ -26,7 +27,7 @@
             <i class="fa-solid fa-house text-[#0B294F]"></i>
           </div>
 
-          <p class="about-item-text">Smart Home Design</p>
+          <p class="about-item-text">Innovative Design</p>
         </li>
 
         <li class="about-item">
@@ -34,32 +35,36 @@
             <i class="fa-solid fa-leaf"></i>
           </div>
 
-          <p class="about-item-text">Beautiful Scene Around</p>
+          <p class="about-item-text">Sustainable Development</p>
         </li>
 
         <li class="about-item">
           <div class="about-item-icon">
-            <i class="fa-solid fa-martini-glass"></i>
+            <i class="fa-solid fa-dollar-sign"></i>
           </div>
 
-          <p class="about-item-text">Exceptional Lifestyle</p>
+          <p class="about-item-text">Premium Amenities</p>
         </li>
 
         <li class="about-item">
           <div class="about-item-icon">
-            <i class="fa-solid fa-shield-halved"></i>
+            <i class="fa-solid fa-location-dot"></i>
           </div>
 
-          <p class="about-item-text">Complete 24/7 Security</p>
+          <p class="about-item-text">Prime Locations</p>
         </li>
       </ul>
 
       <p class="callout">
-        "Enimad minim veniam quis nostrud exercitation llamco laboris. Lorem
-        ipsum dolor sit amet"
+        "Crafting Exceptional Living Experiences, Enriching Lifestyles, and
+        Redefining Luxury Living Standards."
       </p>
 
-      <a href="" class="btn">Our Services</a>
+      <a
+        href="#contact"
+        class="btn"
+        on:click={() => (window.location.href = "#contact")}>Know More</a
+      >
     </div>
   </div>
 </section>
