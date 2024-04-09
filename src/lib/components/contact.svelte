@@ -33,28 +33,7 @@
         </p>
           </span>
         </div>
-        <!-- <div class="flex space-x-2">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5 text-cyan-300"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
-              clip-rule="evenodd"
-            />
-          </svg>
-          <span>
-
-            <p class="font-bold underline">Venture Address</p>
-
-        <p class="section-text">
-          Ravada,Bhogapuram Vizianagaram(Dt.) Andhrapradesh.
-        </p>
-          </span>
-        </div> -->
+        
         <div class="flex space-x-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -125,6 +104,8 @@
   </div>
 </div>
 
+
+
 <style>
   .btn {
     position: relative;
@@ -159,4 +140,6 @@
   .btn:is(:hover, :focus)::before {
     width: 100%;
   }
+
+
 </style>

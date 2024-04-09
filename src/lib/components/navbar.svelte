@@ -66,7 +66,7 @@
             </li>
 
             <li>
-              <a href="/#about" class="navbar-link" data-nav-link>About</a>
+              <a href="/aboutus" class="navbar-link" data-nav-link>About</a>
             </li>
 
             <li>

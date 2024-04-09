@@ -58,7 +58,7 @@
           </li>
 
           <li>
-            <a href="#about" class="footer-link">About</a>
+            <a href="/aboutus" class="footer-link">About</a>
           </li>
 
           <li>
