@@ -3,7 +3,7 @@
       -->
 
 <section class="cta">
-  <div class="container">
+  <div class="sm:p-16 p-7">
     <div class="cta-card">
       <div class="card-content">
         <h2 class="h2 card-title">Looking for a dream home?</h2>

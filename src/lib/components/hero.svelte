@@ -1,5 +1,5 @@
 <section class="hero" id="home">
-  <div class="container">
+  <div class="p-7 flex justify-center main lg:items-center gap-5">
     <div class="hero-content">
       <p class="hero-subtitle">
         <i class="fa-solid fa-house text-[#00ADED]"></i>
@@ -10,7 +10,7 @@
       <h2 class="h1 hero-title font-bold">
         <span class="text-[42px]"> New Way Ventures presents</span>
         <span
-          class="text-[#00ADED] project xs:text-[90px] text-[40px] leading-[90px]"
+          class="text-[#00ADED] project sm:text-[90px] text-[43px] leading-[90px]"
           >Aero Commercial</span
         ><span class="text-2xl">Where Luxury Meets Affordability.</span>
       </h2>
@@ -39,5 +39,12 @@
   @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
   .project {
     font-family: "Dancing Script", cursive;
+  }
+
+  @media screen and (max-width: 991px) {
+    .main {
+      display: flex;
+      flex-direction: column;
+    }
   }
 </style>

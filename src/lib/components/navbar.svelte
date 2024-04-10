@@ -74,7 +74,8 @@
             </li>
 
             <li>
-              <a href="/#property" class="navbar-link" data-nav-link>Property</a>
+              <a href="/#property" class="navbar-link" data-nav-link>Property</a
+              >
             </li>
 
             <li>
