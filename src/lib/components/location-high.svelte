@@ -1,5 +1,5 @@
 <section class="features1">
-  <div class="container">
+  <div class="p-8">
     <h2 class="h2 section-title font-bold">Location Highlights</h2>
 
     <ul class="features-list">

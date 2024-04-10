@@ -39,7 +39,7 @@
   <div class="overlay" data-overlay></div>
 
   <div class="header-bottom">
-    <div class="container">
+    <div class="flex justify-around items">
       <a href="#home" class="logo">
         <img class="w-[90px]" src="/logo.png" alt="Homeverse logo" />
       </a>
@@ -74,7 +74,8 @@
             </li>
 
             <li>
-              <a href="/#property" class="navbar-link" data-nav-link>Property</a>
+              <a href="/#property" class="navbar-link" data-nav-link>Property</a
+              >
             </li>
 
             <li>
@@ -123,4 +124,9 @@
 </header>
 
 <style>
+  @media screen and (max-width: 1200px) {
+    .items {
+      gap: 40%;
+    }
+  }
 </style>

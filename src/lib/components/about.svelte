@@ -1,5 +1,7 @@
 <section class="about" id="about">
-  <div class="container">
+  <div
+    class="p-10 flex justify-around 3xs:flex-col lg:flex-row gap-10 items-center"
+  >
     <figure class="about-banner">
       <img
         src="https://images.pexels.com/photos/1838640/pexels-photo-1838640.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
