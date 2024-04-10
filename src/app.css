@@ -559,6 +559,16 @@
     font-size: var(--fs-5);
   }
 
+  .callout-1{
+    background: #a0e5ff;
+    color: var(--cadet);
+    font-size: var(--fs-5);
+    font-weight: var(--fw-500);
+    line-height: 1.8;
+    padding: 20px 25px;
+    border-left: 4px solid var(--orange-soda);
+    margin-bottom: 40px;
+  }
   .about .callout {
     background: #a0e5ff;
     color: var(--cadet);
