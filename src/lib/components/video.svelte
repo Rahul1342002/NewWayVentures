@@ -1,5 +1,5 @@
 <section class="features" id="aminities">
-  <div class="container">
+  <div class="p-10">
     <h2 class="h2 section-title font-bold">
       Discover Your Dream Property: Watch Our Informative Video Tour
     </h2>

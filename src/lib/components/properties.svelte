@@ -1,5 +1,5 @@
 <section class="property" id="property">
-  <div class="container">
+  <div class="p-10">
     <p class="section-subtitle">Properties</p>
 
     <h2 class="h2 section-title font-bold">Featured Listings</h2>

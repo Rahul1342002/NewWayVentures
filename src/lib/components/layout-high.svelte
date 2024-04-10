@@ -1,5 +1,5 @@
 <section class="features" id="aminities">
-  <div class="container">
+  <div class="p-8">
     <p class="section-subtitle">Our Aminities</p>
 
     <h2 class="h2 section-title font-bold">Layout Highlights</h2>
