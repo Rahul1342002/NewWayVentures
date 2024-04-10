@@ -109,7 +109,7 @@
 
 <div id="contact" class="flex w-full min-h-screen justify-center items-center p-2">
   <div
-    class="flex flex-col-reverse overflow-hidden md:flex-row md:space-x-6 md:space-y-0 space-y-6  w-full max-w-4xl p-8 sm:p-12 rounded-xl  text-[#0B294F]"
+    class="flex flex-col overflow-hidden md:flex-row md:space-x-6 md:space-y-0 space-y-6  w-full max-w-4xl p-8 sm:p-12 rounded-xl  text-[#0B294F]"
   >
   <div class="relative">
       
