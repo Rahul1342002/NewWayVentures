@@ -1221,6 +1221,14 @@
 
   }
 
+  @media screen and (max-width:600px) {
+    .footer-link-box{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+  }
+
 
 
 
