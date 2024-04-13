@@ -36,7 +36,7 @@
       </p>
       <div class="text-sm mt-4">
         <p class="my-2">
-          <span class="fa fa-check-circle mr-2 ml-1"></span> East & North Fcing Plots
+          <span class="fa fa-check-circle mr-2 ml-1"></span> East & North Facing Plots
           Extra Charges - Rs. 99/- Per Sq.yrd
         </p>
         <p class="my-2">
@@ -49,7 +49,7 @@
         </p>
         <p class="my-2">
           <span class="fa fa-check-circle mr-2 ml-1"></span> South East,South West
-          Fcing Extra Charges - Rs. 199/- Per Sq.yrd
+          Facing Extra Charges - Rs. 199/- Per Sq.yrd
         </p>
       </div>
     </div>
