@@ -1,4 +1,4 @@
-<section class="hero" id="home">
+<section class="hero bg-blue-100" id="home">
   <div class="p-7 flex justify-center main lg:items-center gap-5">
     <div class="hero-content">
       <p class="hero-subtitle">

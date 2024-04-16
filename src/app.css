@@ -451,8 +451,7 @@
   \*-----------------------------------*/
 
   .hero {
-    background: var(--cultured-2);
-    padding-block: var(--section-padding);
+        padding-block: var(--section-padding);
   }
 
   .hero-content { margin-bottom: 60px; }
@@ -848,7 +847,7 @@
   \*-----------------------------------*/
 
   .features {
-    background: var(--cultured-2);
+    
     padding-block: var(--section-padding);
   }
   .features1 {

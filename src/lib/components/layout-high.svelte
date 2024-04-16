@@ -1,4 +1,4 @@
-<section class="features" id="aminities">
+<section class="features bg-blue-100" id="aminities">
   <div class="p-8">
     <p class="section-subtitle">Our Aminities</p>
 
