@@ -62,7 +62,7 @@
         <div class="navbar-bottom">
           <ul class="navbar-list">
             <li>
-              <a href="/#home" class="navbar-link" data-nav-link>Home</a>
+              <a href="https://new-way-ventures.vercel.app/#home" class="navbar-link" data-nav-link>Home</a>
             </li>
 
             <li>
