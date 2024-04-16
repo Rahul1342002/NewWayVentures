@@ -41,7 +41,7 @@
   <div class="header-bottom">
     <div class="flex justify-around items">
       <a href="#home" class="logo">
-        <img class="w-[90px]" src="/logo.png" alt="Homeverse logo" />
+        <img class="w-[95px]" src="/logo.png" alt="Homeverse logo" />
       </a>
 
       <nav class="navbar" class:active={navbarOpen}>

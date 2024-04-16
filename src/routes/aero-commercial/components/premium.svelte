@@ -1,6 +1,6 @@
 <div id="pricing" class="max-w-7xl mx-auto">
   <div class="text-center my-10">
-    
+    <p class="section-subtitle">Pricing</p>
 
     <h2 class="h2 section-title font-bold underline">Featured Listings</h2>
   </div>

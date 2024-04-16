@@ -108,7 +108,7 @@
 
   <div class="footer-bottom">
     <div class="container">
-      <p class="copyright">Made With ❤️‍ <a href=""><b>KonKorde</b></a></p>
+      <p class="copyright">Made With ❤️‍ <a href="https://www.konkorde.org/" target="/"><b>KonKorde</b></a></p>
     </div>
   </div>
 </footer>
