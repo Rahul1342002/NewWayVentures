@@ -62,7 +62,7 @@
         <div class="navbar-bottom">
           <ul class="navbar-list">
             <li>
-              <a href="/#home" class="navbar-link" data-nav-link>Home</a>
+              <a href="https://new-way-ventures.vercel.app/#home" class="navbar-link" data-nav-link>Home</a>
             </li>
 
             <li>
@@ -70,22 +70,22 @@
             </li>
 
             <li>
-              <a href="/#pricing" class="navbar-link" data-nav-link>Pricing</a>
+              <a href="https://new-way-ventures.vercel.app/#pricing" class="navbar-link" data-nav-link>Pricing</a>
             </li>
 
             <li>
-              <a href="/#property" class="navbar-link" data-nav-link>Property</a
+              <a href="https://new-way-ventures.vercel.app/#property" class="navbar-link" data-nav-link>Property</a
               >
             </li>
 
             <li>
-              <a href="/#aminities" class="navbar-link" data-nav-link
+              <a href="https://new-way-ventures.vercel.app/#aminities" class="navbar-link" data-nav-link
                 >Aminities</a
               >
             </li>
 
             <li>
-              <a href="/#contact" class="navbar-link" data-nav-link>Contact</a>
+              <a href="https://new-way-ventures.vercel.app/#contact" class="navbar-link" data-nav-link>Contact</a>
             </li>
           </ul>
         </div>

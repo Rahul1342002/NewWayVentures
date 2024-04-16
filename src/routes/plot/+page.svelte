@@ -2,7 +2,7 @@
     /** @type {import('./$types').PageData} */
     export let data;
     import Plot from "./Components/Plot.svelte";
-    import Navbar from "$lib/components/navbar.svelte";
+    import Navbar from "./Components/navbar.svelte";
     import Foot from "$lib/components/foot.svelte";
     import Contact from "$lib/components/contact.svelte";
 </script>
