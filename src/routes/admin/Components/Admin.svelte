@@ -197,8 +197,9 @@
                                     <td
                                             class="px-5 py-5 bg-white border-b border-gray-200 text-sm"
                                     >
-                                        <button
+                                        <a href="/admin-form"
                                                 class="relative inline-block px-3 py-1 font-semibold text-black leading-tight"
+                                                
                                         >
                                             <div class="flex">
                                                 <svg
@@ -222,7 +223,7 @@
                                                 ></span>
                                                 <span class="relative">Edit</span>
                                             </div>
-                                        </button>
+                                        </a>
                                     </td>
                                 </tr>
                             {/each}
@@ -320,6 +321,7 @@
                                     >
                                         <button
                                                 class="relative inline-block px-3 py-1 font-semibold text-black leading-tight"
+                                                
                                         >
                                             <div class="flex">
                                                 <svg
