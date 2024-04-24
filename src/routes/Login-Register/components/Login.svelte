@@ -1,5 +1,26 @@
 <script>
   import Navbar from "$lib/components/navbar.svelte";
+
+  async function login() {
+    const username = document.getElementById("username").value
+    const password = document.getElementById("password").value
+
+    const res = await fetch("/api/login", {
+      method: "POST",
+      body: JSON.stringify({
+        username,
+        password
+      })
+    })
+
+    if (res.status === 200) {
+      document.location.reload()
+    } else if(res.status >= 400 && res.status <= 499) {
+      alert("Invalid credentials")
+    } else if (res.status >= 500) {
+      alert("Server error occurred, please retry")
+    }
+  }
 </script>
 
 <Navbar />
@@ -14,12 +35,13 @@
         For Administrative purposes only, Log into our New Way Ventures
       </p>
 
-      <form action="" class="flex flex-col gap-4">
+      <div class="flex flex-col gap-4">
         <input
           class="p-2 mt-8 rounded-xl border"
-          type="email"
-          name="email"
-          placeholder="Email"
+          type="text"
+          name="username"
+          placeholder="Username"
+          id="username"
         />
         <div class="relative">
           <input
@@ -27,6 +49,7 @@
             type="password"
             name="password"
             placeholder="Password"
+            id="password"
           />
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -46,10 +69,11 @@
         </div>
         <button
           class="bg-[#002D74] rounded-xl text-white py-2 hover:scale-105 duration-300 text-center"
+          on:click={login}
         >
           Login
         </button>
-      </form>
+      </div>
 
     </div>
 
