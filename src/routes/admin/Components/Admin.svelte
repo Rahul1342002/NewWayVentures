@@ -12,7 +12,7 @@
     const unsoldItems = items.filter(item => !item.is_sold);
 
     let status = "sold";
-    let filter = "customerName";
+    let searchValue = "customerName"
 
     $: soldVisible = status === "sold";
     $: unsoldVisible = status === "unsold";
@@ -25,12 +25,21 @@
 
     $: filteredItems = () => {
         if (!searchQuery) {
-            if (soldVisible) {
-                return soldItems;
-            } else if (unsoldVisible) {
-                return unsoldItems;
+            if (soldVisible === true) {
+                return soldItems
+            } else if (unsoldVisible === true) {
+                return unsoldItems
             }
-            return Object.values(items);
+        }
+
+        if (soldVisible && searchValue === "customerName") {
+            return soldItems.filter(item => item.name.toLowerCase().includes(searchQuery));
+        } else if (unsoldVisible && searchValue === "customerName") {
+            return unsoldItems.filter(item => item.name.toLowerCase().includes(searchQuery));
+        } else if (soldVisible && searchValue === "plotNo") {
+            return soldItems.filter(item => item.plotId.toString() === searchQuery);
+        } else if (unsoldVisible && searchValue === "plotNo") {
+            return unsoldItems.filter(item => item.plotId.toString() === searchQuery);
         }
         return Object.values(items).filter(item =>
             Object.values(item).some(value =>
@@ -80,9 +89,10 @@
                     <div class="relative">
                         <select
                                 class="appearance-none h-full rounded-r border-t sm:rounded-r-none sm:border-r-0 border-r border-b block appearance-none w-full bg-white border-gray-400 text-gray-700 py-2 px-4 pr-8 leading-tight focus:outline-none focus:border-l focus:border-r focus:bg-white focus:border-gray-500"
+                                bind:value={searchValue}
                         >
-                            <option>Customer Name</option>
-                            <option>Plot No</option>
+                            <option value="customerName">Customer Name</option>
+                            <option value="plotNo">Plot No</option>
                         </select>
                         <div
                                 class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
@@ -199,7 +209,7 @@
                                     >
                                         <a href="/admin-form"
                                                 class="relative inline-block px-3 py-1 font-semibold text-black leading-tight"
-                                                
+
                                         >
                                             <div class="flex">
                                                 <svg
@@ -278,24 +288,6 @@
                                     <td
                                             class="px-5 py-5 border-b border-gray-200 bg-white text-sm"
                                     >
-                                        <div class="flex items-center">
-                                            <div class="flex-shrink-0 w-10 h-10">
-                                                <img
-                                                        class="w-full h-full rounded-full"
-                                                        src="/user.svg"
-                                                        alt=""
-                                                />
-                                            </div>
-                                            <div class="ml-3">
-                                                <p class="text-gray-900 whitespace-no-wrap">
-                                                    Ready for Sale
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td
-                                            class="px-5 py-5 border-b border-gray-200 bg-white text-sm"
-                                    >
                                         <p class="text-gray-900 whitespace-no-wrap">P-{item.plotId}</p>
                                     </td>
                                     <td
@@ -321,7 +313,7 @@
                                     >
                                         <button
                                                 class="relative inline-block px-3 py-1 font-semibold text-black leading-tight"
-                                                
+
                                         >
                                             <div class="flex">
                                                 <svg
