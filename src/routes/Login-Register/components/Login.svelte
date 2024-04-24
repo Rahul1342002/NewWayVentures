@@ -1,5 +1,17 @@
 <script>
-  import Navbar from "$lib/components/navbar.svelte";
+  import { onMount } from 'svelte';
+
+  let passwordVisible = false;
+
+  onMount(() => {
+    const eyeIcon = document.getElementById("eye-icon");
+    const passwordInput = document.getElementById("password");
+
+    eyeIcon.addEventListener("click", () => {
+      passwordVisible = !passwordVisible;
+      passwordInput.type = passwordVisible ? "text" : "password";
+    });
+  });
 
   async function login() {
     const username = document.getElementById("username").value
@@ -52,11 +64,12 @@
             id="password"
           />
           <svg
+            id="eye-icon"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
             fill="gray"
-            class="bi bi-eye absolute top-1/2 right-3 -translate-y-1/2"
+            class="bi bi-eye absolute top-1/2 right-3 -translate-y-1/2 cursor-pointer"
             viewBox="0 0 16 16"
           >
             <path
