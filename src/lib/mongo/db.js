@@ -35,3 +35,15 @@ export async function getPlotData() {
 
     return newResults
 }
+
+export async function updatePlot(data) {
+    try {
+        const db = await getConnection()
+        await db.collection(DB_COLLECTION).updateOne({id: data.id}, {$set: data})
+        return true
+    } catch(err) {
+        console.error(err)
+        return false
+    }
+
+}

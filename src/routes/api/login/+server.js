@@ -25,7 +25,7 @@ export async function POST({request}) {
             headers.append('Set-Cookie', `access_token=${token}; Max-Age=86400; Path=/; HttpOnly`);
             headers.append("Content-Type", "application/json")
 
-            return new Response(JSON.stringify({success: true}), {headers});
+            return new Response(JSON.stringify({success: true}), {headers, status: 200});
         }
 
         return new Response(JSON.stringify({success: false, msg: "invalid credentials"}), {
