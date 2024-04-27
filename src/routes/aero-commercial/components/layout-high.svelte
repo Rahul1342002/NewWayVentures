@@ -6,12 +6,10 @@
 
     <ul class="features-list">
       <li>
-        <div class="features-card">
-          <div class="card-icon">
-            <i class="fa-solid fa-archway"></i>
-          </div>
+        <div class="features-card" style="background-image: url('/arch.jpg'); background-repeat: no-repeat; background-size: cover;">
+          
 
-          <h3 class="card-title">Beautiful Entry Arch</h3>
+          <h3 class="text-white text-2xl font-bold hover:text-[#02adee] cursor-pointer">Beautiful Entry Arch</h3>
 
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
@@ -34,12 +32,10 @@
       </li>
 
       <li>
-        <div class="features-card">
-          <div class="card-icon">
-            <i class="fa-solid fa-shield-halved"></i>
-          </div>
+        <div class="features-card" style="background-image: url('/security.jpg'); background-repeat: no-repeat; background-size: cover;">
+          
 
-          <h3 class="card-title">All Round Compound wall with 24/7 Security</h3>
+          <h3 class="text-white text-center text-2xl font-bold hover:text-[#02adee] cursor-pointer">All Round Compound wall with 24/7 Security</h3>
 
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
@@ -48,12 +44,10 @@
       </li>
 
       <li>
-        <div class="features-card">
-          <div class="card-icon">
-            <i class="fa-solid fa-cloud-rain"></i>
-          </div>
+        <div class="features-card" style="background-image: url('/rainwater.jpg'); background-repeat: no-repeat; background-size: cover;">
+          
 
-          <h3 class="card-title">Rain Water Harvesting</h3>
+          <h3 class="text-white text-2xl font-bold hover:text-[#02adee] cursor-pointer">Rain Water Harvesting</h3>
 
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
@@ -76,12 +70,10 @@
       </li>
 
       <li>
-        <div class="features-card">
-          <div class="card-icon">
-            <i class="fa-solid fa-sink"></i>
-          </div>
+        <div class="features-card" style="background-image: url('/drinageline.jpg'); background-repeat: no-repeat; background-size: cover;">
+          
 
-          <h3 class="card-title">Drinage Line</h3>
+          <h3 class="text-white text-2xl font-bold hover:text-[#02adee] cursor-pointer">Drinage Line</h3>
 
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
@@ -104,12 +96,10 @@
       </li>
 
       <li>
-        <div class="features-card">
-          <div class="card-icon">
-            <i class="fa-solid fa-faucet-drip"></i>
-          </div>
+        <div class="features-card" style="background-image: url('/water.jpg'); background-repeat: no-repeat; background-size: cover;">
+          
 
-          <h3 class="card-title">Drinking Water</h3>
+          <h3 class="text-white text-2xl font-bold hover:text-[#02adee] cursor-pointer">Drinking Water</h3>
 
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
@@ -117,12 +107,12 @@
         </div>
       </li>
       <li>
-        <div class="features-card">
+        <div class="features-card h-[20vh]" style="background-image: url('/electiricty.jpg'); background-repeat: no-repeat; background-size: cover;">
           <div class="card-icon">
-            <i class="fa-solid fa-bolt"></i>
+            
           </div>
 
-          <h3 class="card-title">Electricity</h3>
+          <h3 class="text-white text-2xl font-bold hover:text-[#02adee] cursor-pointer">Electricity</h3>
 
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
@@ -130,12 +120,10 @@
         </div>
       </li>
       <li>
-        <div class="features-card">
-          <div class="card-icon">
-            <i class="fa-solid fa-basketball"></i>
-          </div>
+        <div class="features-card" style="background-image: url('/park.jpg'); background-repeat: no-repeat; background-size: cover;">
+          
 
-          <h3 class="card-title">Park</h3>
+          <h3 class="text-white text-2xl font-bold hover:text-[#02adee] cursor-pointer">Park</h3>
 
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>

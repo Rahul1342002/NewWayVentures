@@ -4,7 +4,7 @@
   >
     <figure class="about-banner">
       <img
-        src="https://images.pexels.com/photos/1838640/pexels-photo-1838640.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        src="/About-Us.jpg"
         alt="House interior"
         class="rounded-3xl"
       />

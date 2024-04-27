@@ -41,13 +41,13 @@
   <div class="header-bottom">
     <div class="flex justify-around items">
       <a href="#home" class="logo">
-        <img class="w-[95px]" src="/logo.png" alt="Homeverse logo" />
+        <img class="w-[140px]" src="/logo.png" alt="Homeverse logo" />
       </a>
 
       <nav class="navbar" class:active={navbarOpen}>
         <div class="navbar-top">
           <a href="#" class="logo">
-            <img src="/logo.png" alt="Homeverse logo" />
+            <img src="/logo.png" alt="newway ventures logo" />
           </a>
 
           <button
@@ -60,7 +60,7 @@
         </div>
 
         <div class="navbar-bottom">
-          <ul class="navbar-list">
+          <ul class="navbar-list mt-5">
             <li>
               <a href="/#home" class="navbar-link" data-nav-link>Home</a>
             </li>
@@ -70,10 +70,14 @@
             </li>
 
             <li>
-              <a href="/#pricing" class="navbar-link" data-nav-link>Pricing</a>
+              <a href="/downloads" class="navbar-link" data-nav-link>Downloads</a>
             </li>
 
             <li>
+              <a href="/#pricing" class="navbar-link" data-nav-link>Our Purpose</a>
+            </li>
+
+            <!-- <li>
               <a href="/#property" class="navbar-link" data-nav-link>Property</a
               >
             </li>
@@ -82,7 +86,7 @@
               <a href="/#aminities" class="navbar-link" data-nav-link
                 >Aminities</a
               >
-            </li>
+            </li> -->
 
             <li>
               <a href="/#contact" class="navbar-link" data-nav-link>Contact</a>

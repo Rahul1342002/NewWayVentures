@@ -41,13 +41,13 @@
   <div class="header-bottom">
     <div class="flex justify-around items">
       <a href="#home" class="logo">
-        <img class="w-[95px]" src="/logo.png" alt="Homeverse logo" />
+        <img class="w-[140px]" src="/logo.png" alt="Homeverse logo" />
       </a>
 
       <nav class="navbar" class:active={navbarOpen}>
         <div class="navbar-top">
           <a href="#" class="logo">
-            <img src="/logo.png" alt="Homeverse logo" />
+            <img src="/logo.png" alt="newway ventures logo" />
           </a>
 
           <button
@@ -60,9 +60,9 @@
         </div>
 
         <div class="navbar-bottom">
-          <ul class="navbar-list">
+          <ul class="navbar-list mt-5">
             <li>
-              <a href="https://new-way-ventures.vercel.app/#home" class="navbar-link" data-nav-link>Home</a>
+              <a href="/#home" class="navbar-link" data-nav-link>Home</a>
             </li>
 
             <li>
@@ -70,22 +70,22 @@
             </li>
 
             <li>
-              <a href="https://new-way-ventures.vercel.app/#pricing" class="navbar-link" data-nav-link>Pricing</a>
+              <a href="/#pricing" class="navbar-link" data-nav-link>Pricing</a>
             </li>
 
             <li>
-              <a href="https://new-way-ventures.vercel.app/#property" class="navbar-link" data-nav-link>Property</a
+              <a href="/#property" class="navbar-link" data-nav-link>Property</a
               >
             </li>
 
             <li>
-              <a href="https://new-way-ventures.vercel.app/#aminities" class="navbar-link" data-nav-link
+              <a href="/#aminities" class="navbar-link" data-nav-link
                 >Aminities</a
               >
             </li>
 
             <li>
-              <a href="https://new-way-ventures.vercel.app/#contact" class="navbar-link" data-nav-link>Contact</a>
+              <a href="/#contact" class="navbar-link" data-nav-link>Contact</a>
             </li>
           </ul>
         </div>
