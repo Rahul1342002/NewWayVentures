@@ -18,12 +18,12 @@
       </li>
 
       <li>
-        <div class="features-card">
-          <div class="card-icon">
+        <div class="features-card" style="background-image: url('/roads.jpg'); background-repeat: no-repeat; background-size: cover;">
+          <!-- <div class="card-icon">
             <i class="fa-solid fa-torii-gate"></i>
-          </div>
+          </div> -->
 
-          <h3 class="card-title">Outdoor Retreat with Separate Public Entry</h3>
+          <h3 class="text-white text-center text-2xl font-bold hover:text-[#02adee] cursor-pointer">Outdoor Retreat with Separate Public Entry</h3>
 
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
@@ -56,12 +56,10 @@
       </li>
 
       <li>
-        <div class="features-card">
-          <div class="card-icon">
-            <i class="fa-solid fa-lightbulb"></i>
-          </div>
+        <div class="features-card" style="background-image: url('/led.jpg'); background-repeat: no-repeat; background-size: cover;">
+          
 
-          <h3 class="card-title">LED Street Lights</h3>
+          <h3 class="text-white text-2xl font-bold hover:text-[#02adee] cursor-pointer">LED Street Lights</h3>
 
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
@@ -82,12 +80,12 @@
       </li>
 
       <li>
-        <div class="features-card">
-          <div class="card-icon">
+        <div class="features-card" style="background-image: url('/arch.jpg'); background-repeat: no-repeat; background-size: cover;">
+          <!-- <div class="card-icon">
             <i class="fa-solid fa-road"></i>
-          </div>
+          </div> -->
 
-          <h3 class="card-title">Internal 40 feet road connectivity</h3>
+          <h3 class="text-white text-center text-2xl font-bold hover:text-[#02adee] cursor-pointer">Internal 40 feet road connectivity</h3>
 
           <div class="card-btn">
             <i class="fa-solid fa-arrow-right"></i>
@@ -108,9 +106,9 @@
       </li>
       <li>
         <div class="features-card h-[20vh]" style="background-image: url('/electiricty.jpg'); background-repeat: no-repeat; background-size: cover;">
-          <div class="card-icon">
+          <!-- <div class="card-icon">
             
-          </div>
+          </div> -->
 
           <h3 class="text-white text-2xl font-bold hover:text-[#02adee] cursor-pointer">Electricity</h3>
 

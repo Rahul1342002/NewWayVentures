@@ -868,7 +868,7 @@
   .features-card {
     position: relative;
     background: var(--white);
-    padding: 40px 15px;
+    padding: 90px 15px;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -1490,7 +1490,7 @@
      * FEATURES
      */
 
-    .features-list { column-gap: 30px; }
+    .features-list { column-gap: 20px; }
 
     .features-list > li { width: calc(25% - 30px); }
 
