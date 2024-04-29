@@ -107,7 +107,7 @@
   </div>
 </div>
 
-<div id="contact" class="flex w-full min-h-screen justify-center items-center p-2">
+<!-- <div id="contact" class="flex w-full min-h-screen justify-center items-center md:mt-[-90px]">
   <div
     class="flex flex-col overflow-hidden md:flex-row md:space-x-6 md:space-y-0 space-y-6  w-full max-w-4xl p-8 sm:p-12 rounded-xl  text-[#0B294F]"
   >
@@ -140,7 +140,7 @@
       
     </div>
   </div>
-</div>
+</div> -->
 
 
 

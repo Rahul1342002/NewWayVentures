@@ -74,7 +74,7 @@
             </li>
 
             <li>
-              <a href="/#pricing" class="navbar-link" data-nav-link>Our Purpose</a>
+              <a href="" class="navbar-link" data-nav-link>Our Purpose</a>
             </li>
 
             <!-- <li>
