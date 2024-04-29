@@ -21,23 +21,23 @@
           spaces and investment insights.
         </p>
         <a href="/brochure.pdf" download class="button w-[11vw]">
-            <p class="text">Download</p>
-            <div class="svg">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="white"
-                class="bi bi-download"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"
-                ></path>
-                <path
-                  d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"
-                ></path>
-              </svg>
-            </div>
-          </a>
+          <p class="text">Download</p>
+          <div class="svg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="white"
+              class="bi bi-download"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"
+              ></path>
+              <path
+                d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"
+              ></path>
+            </svg>
+          </div>
+        </a>
       </div>
     </div>
   </div>
@@ -48,11 +48,7 @@
       class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-[#0B294F] dark:border-gray-700"
     >
       <a href="#">
-        <img
-          class="rounded-t-lg"
-          src="https://flowbite.com/docs/images/blog/image-1.jpg"
-          alt=""
-        />
+        <img class="rounded-t-lg" src="/business.png" alt="" />
       </a>
       <div class="p-5">
         <a href="#">
@@ -62,28 +58,28 @@
             Business Associate Application
           </h5>
         </a>
-        <!-- <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
-        </p> -->
-        <a href="/brochure.pdf" download class="button w-[11vw]">
-            <p class="text">Download</p>
-            <div class="svg">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="white"
-                class="bi bi-download"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"
-                ></path>
-                <path
-                  d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"
-                ></path>
-              </svg>
-            </div>
-          </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          Unlock exclusive benefits for your business by completing our customer
+          application form. 
+        </p>
+        <a href="/business.pdf" download class="button w-[11vw]">
+          <p class="text">Download</p>
+          <div class="svg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="white"
+              class="bi bi-download"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"
+              ></path>
+              <path
+                d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"
+              ></path>
+            </svg>
+          </div>
+        </a>
       </div>
     </div>
   </div>
@@ -94,11 +90,7 @@
       class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-[#0B294F] dark:border-gray-700"
     >
       <a href="#">
-        <img
-          class="rounded-t-lg"
-          src="https://flowbite.com/docs/images/blog/image-1.jpg"
-          alt=""
-        />
+        <img class="rounded-t-lg" src="/customer.png" alt="" />
       </a>
       <div class="p-5">
         <a href="#">
@@ -108,11 +100,11 @@
             Customer Application
           </h5>
         </a>
-        <!-- <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
-        </p> -->
-        <a href="/brochure.pdf" download class="button w-[11vw]">
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          Complete the Business Associate Application Form to unlock exclusive
+          partnership opportunities with Aero Commercial.
+        </p>
+        <a href="/customer.pdf" download class="button w-[11vw]">
           <p class="text">Download</p>
           <div class="svg">
             <svg
