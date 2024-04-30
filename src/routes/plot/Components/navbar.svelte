@@ -70,19 +70,19 @@
             </li>
 
             <li>
-              <a href="/#pricing" class="navbar-link" data-nav-link>Pricing</a>
+              <a href="/downloads" class="navbar-link" data-nav-link>Downloads</a>
             </li>
 
             <li>
-              <a href="/#property" class="navbar-link" data-nav-link>Property</a
+              <a href="" class="navbar-link" data-nav-link>Our Purposes</a
               >
             </li>
 
-            <li>
+            <!-- <li>
               <a href="/#aminities" class="navbar-link" data-nav-link
                 >Aminities</a
               >
-            </li>
+            </li> -->
 
             <li>
               <a href="/#contact" class="navbar-link" data-nav-link>Contact</a>

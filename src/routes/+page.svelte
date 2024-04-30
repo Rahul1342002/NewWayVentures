@@ -15,9 +15,14 @@
   import { fly } from 'svelte/transition';
 
   let showSideNav = false;
+  let showDropDown = false;
 
   function toggleSideNav() {
     showSideNav = !showSideNav;
+  }
+
+  function toggleDropDown() {
+    showDropDown = !showDropDown;
   }
 </script>
 
@@ -57,15 +62,26 @@
       </button>
       <ul>
         <!-- Add your ongoing projects here -->
-        <li><a href="/aero-commercial">Aero Commercial</a></li>
+        <!-- <li><a href="/aero-commercial">Aero Commercial</a></li> -->
         <!-- Add more ongoing projects as needed -->
+        <li>
+          <button class="flex items-center justify-between w-full py-2 px-3 mt-5 text-gray-300 hover:text-white focus:outline-none  " on:click={toggleDropDown}>
+            <span class="font-bold underline">BHOGAPURAM</span>
+            <svg class="w-6 h-6 transform transition-transform duration-300 {showDropDown ? 'rotate-90' : ''}" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </button>
+          <ul class="ml-4 {showDropDown ? 'block' : 'hidden'}">
+            <li><a href="/aero-commercial">Aero Commercial</a></li>
+            <li><a href="/garuda">Garuda</a></li>
+          </ul>
+        </li>
       </ul>
     </div>
   {/if}
-  </div>
+</div>
 
 <style>
-   .fly-in { transform: translateX(0); }
+  .fly-in { transform: translateX(0); }
   .fly-out { transform: translateX(100%); }
 </style>
-

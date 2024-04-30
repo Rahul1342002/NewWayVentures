@@ -1,11 +1,10 @@
 <section class="hero" id="home">
   <div class="p-7 flex justify-center main lg:items-center gap-5">
     <div class="hero-content">
-      <p class="hero-subtitle">
-        <i class="fa-solid fa-house text-[#00ADED]"></i>
-
-        <span>Real Estate Agency</span>
-      </p>
+      <div class="flex gap-2 items-center mb-4">
+        <i class="fa-solid fa-house text-[#00ADED] text-3xl"></i>
+      <span class="text-[35px] font-bold text-[#0B294F]">Unlocking Your Dream Home</span>
+      </div>
 
       <h2 class="h1 hero-title font-bold">
         <span class="text-[42px]"> New Way Ventures presents</span>
