@@ -67,9 +67,9 @@ let showSideNav = false;
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
             </svg>
           </button>
-          <ul class="ml-4 {showDropDown ? 'block' : 'hidden'}">
-            <li><a href="/aero-commercial">Aero Commercial</a></li>
-            <li><a href="/garuda">Garuda</a></li>
+          <ul class="ml-4 {showDropDown ? 'block' : 'hidden'} leading-[50px]">
+            <li><a href="/aero-commercial" class="mt-4">Aero Commercial</a></li>
+            <li><a href="#">Garuda</a></li>
           </ul>
         </li>
       </ul>
