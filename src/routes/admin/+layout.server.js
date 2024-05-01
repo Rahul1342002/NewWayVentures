@@ -18,7 +18,7 @@ export async function load({ cookies }) {
 
         await getLogger().debug("/admin = access_token is valid. keeping it at /admin")
     } catch(err) {
-        await getLogger().error("/admin = error occurred: " + err.toString()+ " redirecting to /login")
+        await getLogger().error("/admin = error occurred: " + JSON.stringify(err)+ " redirecting to /login")
         redirect(301, "/login")
     }
 
