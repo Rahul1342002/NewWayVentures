@@ -1,3 +1,5 @@
+import {getLogger} from "$lib/logs/index.js";
+
 const GLOBAL_USERNAME = "bvr_admin"
 const GLOBAL_PASSWORD = "bvr_ventures@123"
 
@@ -24,6 +26,8 @@ export async function POST({request}) {
             const headers = new Headers();
             headers.append('Set-Cookie', `access_token=${token}; Max-Age=86400; Path=/; HttpOnly`);
             headers.append("Content-Type", "application/json")
+
+            await getLogger().debug("Login success: access token = ", token)
 
             return new Response(JSON.stringify({success: true}), {headers, status: 200});
         }
