@@ -16,7 +16,7 @@ export async function load({ cookies }) {
         // }
     } catch(err) {
         await getLogger().error(JSON.stringify(err))
-        // return redirect(301, "/login")
+        return redirect(301, "/login")
     }
 
 }
