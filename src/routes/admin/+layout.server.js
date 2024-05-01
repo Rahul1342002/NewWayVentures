@@ -9,14 +9,14 @@ export async function load({ cookies }) {
         if(!token || token.length === 0) {
             return redirect(301, "/login")
         }
-        const result = verifyJwt(token)
-        await getLogger().debug(JSON.stringify(result))
-        if(result === false) {
-            return redirect(301, "/login")
-        }
+        // const result = verifyJwt(token)
+        // await getLogger().debug(JSON.stringify(result))
+        // if(result === false) {
+        //     return redirect(301, "/login")
+        // }
     } catch(err) {
         await getLogger().error(JSON.stringify(err))
-        return redirect(301, "/login")
+        // return redirect(301, "/login")
     }
 
 }
