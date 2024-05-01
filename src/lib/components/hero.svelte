@@ -30,7 +30,7 @@
 
     <figure class="hero-banner">
       <img
-        src="/hero-main.png"
+        src="/hero.png"
         alt="Modern house model"
         class="lg:w-[40vw]"
       />
