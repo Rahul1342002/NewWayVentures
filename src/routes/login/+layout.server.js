@@ -8,12 +8,7 @@ export async function load({ cookies }) {
     if (token && token.length > 0) {
         const result = verifyJwt(token)
         if(result) {
-            await getLogger().debug("/login = access_token is valid, redirecting to /admin")
-            redirect(301, "/admin")
-        } else {
-            await getLogger().debug("/login = access_token is invalid, keeping it at /login")
+            return redirect(301, "/admin")
         }
     }
-
-    await getLogger().debug("/login = access_token is empty, keeping it at /login")
 }
