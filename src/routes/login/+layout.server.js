@@ -8,7 +8,7 @@ export async function load({ cookies }) {
     if (token && token.length > 0) {
         const result = verifyJwt(token)
         if(result) {
-            return redirect(301, "/admin")
+            return redirect(302, "/admin")
         }
     }
 }

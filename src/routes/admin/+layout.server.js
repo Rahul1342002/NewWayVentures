@@ -5,12 +5,12 @@ import {getLogger} from "$lib/logs/index.js";
 /** @type {import('./$types').LayoutServerLoad} */
 export async function load({ cookies }) {
     const token = cookies.get('access_token');
-    if(token && token.length > 0) {
-        const result = verifyJwt(token)
-        if(result && result.success) {
-            return
-        }
+    if (!token || token.length === 0) {
+        return redirect(302, "/login")
     }
 
-    return redirect(301, "/login")
+    const result = verifyJwt(token)
+    if(result === false) {
+        return redirect(302, "/login")
+    }
 }
