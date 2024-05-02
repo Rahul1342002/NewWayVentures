@@ -30,12 +30,12 @@
   
   <div class="w-full relative">
     <a
-      href="#"
-      on:click={toggleSideNav}
-      class="fixed bottom-80 cursor-pointer -right-20 -rotate-90 bg-[#0B294F] hover:bg-[#02ADEE] transform ease-in-out text-white px-4 py-4 rounded-xl"
-    >
-      <span class="font-bold">ONGOING PROJECTS</span>
-    </a>
+    href="#"
+    on:click={toggleSideNav}
+    class="fixed top-1/2  -translate-y-1/2 cursor-pointer -right-20 -rotate-90 bg-[#0B294F] hover:bg-[#02ADEE] transform ease-in-out text-white px-4 py-4 rounded-xl"
+  >
+    <span class="font-bold">ONGOING PROJECTS</span>
+  </a>
   
     <!-- Side Nav -->
     {#if showSideNav}

@@ -43,11 +43,10 @@ let showSideNav = false;
   <a
     href="#"
     on:click={toggleSideNav}
-    class="fixed bottom-80 cursor-pointer -right-20 -rotate-90 bg-[#0B294F] hover:bg-[#02ADEE] transform ease-in-out text-white px-4 py-4 rounded-xl"
+    class="fixed top-1/2  -translate-y-1/2 cursor-pointer -right-20 -rotate-90 bg-[#0B294F] hover:bg-[#02ADEE] transform ease-in-out text-white px-4 py-4 rounded-xl"
   >
     <span class="font-bold">ONGOING PROJECTS</span>
   </a>
-
   <!-- Side Nav -->
   {#if showSideNav}
     <div transition:fly="{{ x: 'out' }}" class="fixed inset-y-0 right-0 w-64 bg-[#0B294F] text-white px-4 py-6 transform transition-transform duration-300 ease-in-out z-10">
