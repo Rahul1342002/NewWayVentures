@@ -27,7 +27,7 @@ let showSideNav = false;
 <section class="">
   <div class="">
       <Navbar/>
-      <Hero/>
+      <!-- <Hero/> -->
       <Plot plotData={data.plotData}/>
       <div class="w-full">
       </div>

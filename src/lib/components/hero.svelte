@@ -10,7 +10,7 @@
       <h2 class="h1 hero-title font-bold">
         <div class="flex gap-2 items-center">
           <i class="fa-solid fa-house text-[#00ADED] text-3xl"></i>
-        <span class="text-[35px]">Unlocking Your Dream Home</span>
+        <span class="text-[35px]">Unlocking Your Dream Plot</span>
         </div>
         <span
           class="text-[#00ADED] project sm:text-[62px] text-[35px] leading-[90px]"

@@ -6,10 +6,10 @@
   <div class="sm:p-16 p-7">
     <div class="cta-card">
       <div class="card-content">
-        <h2 class="h2 card-title">Looking for a dream home?</h2>
+        <h2 class="h2 card-title">Looking for a Dream Plot?</h2>
 
         <p class="card-text">
-          We can help you realize your dream of a new home..
+          We can help you realize your dream of a new plot..
         </p>
       </div>
 
@@ -34,11 +34,11 @@
           <img class="w-[160px]" src="/footer-logo.png" alt="Homeverse logo" />
         </a>
 
-        <p class="font-bold underline">Venture Address</p>
+        <!-- <p class="font-bold underline">Venture Address</p>
 
         <p class="section-text">
           Ravada,Bhogapuram Vizianagaram(Dt.) Andhrapradesh.
-        </p>
+        </p> -->
         <p class="font-bold underline">Office Address</p>
 
         <p class="section-text">
@@ -46,12 +46,13 @@
           Maddilapalem, Visakhapatnam 530013
         </p>
       </div>
-
+      
       <div class="footer-link-box">
-        <ul class="footer-list">
-          <li>
+        
+        <ul class="footer-list leading-10">
+          <!-- <li>
             <p class="footer-list-title">Company</p>
-          </li>
+          </li> -->
 
           <li>
             <a href="#home" class="footer-link">Home</a>
@@ -65,6 +66,10 @@
             <a href="#pricing" class="footer-link">Pricing</a>
           </li>
 
+          
+        </ul>
+
+        <ul class="footer-list leading-10">
           <li>
             <a href="#property" class="footer-link">Property</a>
           </li>
@@ -76,26 +81,23 @@
           <li>
             <a href="#contact" class="footer-link">Contact</a>
           </li>
-        </ul>
-
-        <ul class="footer-list leading-10">
-          <li>
+          <!-- <li>
             <p class="footer-list-title">Locations</p>
           </li>
 
           <li>Ravada</li>
 
           <li>Bhogapuram ,</li>
-          <li>Vizianagaram (Dt.)</li>
+          <li>Vizianagaram (Dt.)</li> -->
         </ul>
 
         <div>
           <!-- <iframe class="rounded-2xl w-[100%] xl:w-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.5764681637656!2d83.32984371488234!3d17.811591387825697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a395befa9dda303%3A0x5781c56a5df412!2sBaba%20Institute%20of%20Technology%20%26%20Sciences!5e0!3m2!1sen!2sin!4v1689674946811!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
           <iframe
-            class="rounded-2xl w-[100%] xl:w-auto"
+            class="rounded-2xl w-[100%] xl:w-auto "
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d950.0522876250478!2d83.31621236951571!3d17.734781698950812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a394300219fa9fb%3A0xc68c92f48f78c2ff!2sBVR%20New%20Way%20Ventures!5e0!3m2!1sen!2sin!4v1712559593957!5m2!1sen!2sin"
             width="600"
-            height="350"
+            height="300"
             style="border:0;"
             allowfullscreen=""
             loading="lazy"
