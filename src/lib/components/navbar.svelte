@@ -74,7 +74,7 @@
             </li>
 
             <li>
-              <a href="" class="navbar-link" data-nav-link>Our Purpose</a>
+              <a href="/ourpupose" class="navbar-link" data-nav-link>Our Purpose</a>
             </li>
 
             <!-- <li>
