@@ -1,5 +1,5 @@
 <script>
-    import Aboutus from "./components/aboutus.svelte";
+    import Ourpurpose from "./components/ourpurpose.svelte";
     import Navbar from "$lib/components/navbar.svelte";
     import Contact from "$lib/components/contact.svelte";
     import Foot from "$lib/components/foot.svelte";
@@ -21,7 +21,7 @@
 <section class="">
     <div class="">
         <Navbar/>
-        <Aboutus/>
+        <Ourpurpose/>
         <Contact/>
         <Foot/>
     </div>
