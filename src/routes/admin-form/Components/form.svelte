@@ -15,7 +15,6 @@
 
   function handleCustomerChange(event) {
     customerName = event.target.value;
-    showErrorCustomer = customerName === "";
   }
 
   function handleAreaChange(event) {
@@ -58,44 +57,38 @@
   let customerName = queryParams.name;
   let plotArea = queryParams.area;
   let plotFacing = queryParams.facing;
-  let plotSoldStatus = queryParams.is_sold === true ? "1": "0";
-  let showErrorCustomer = false;
+  let plotSoldStatus = queryParams.is_sold === true ? "1" : "0";
   let showErrorArea = false;
 
   async function handleSubmit(event) {
     event.preventDefault();
 
-    showErrorCustomer = customerName === "";
     showErrorArea = plotArea === "";
 
-    if (!showErrorCustomer && !showErrorArea) {
+    if (!showErrorArea) {
       const data = {
-        name: customerName,
+        name: plotSoldStatus === "1" ? customerName : "",
         area: plotArea,
         measurement: `E-${directions.E}, W-${directions.W}, N-${directions.N}, S-${directions.S}`,
         facing: plotFacing,
         is_sold: plotSoldStatus === "1",
         id: queryParams.plotId,
-      }
-
-      if(data.is_sold === false) {
-        data.name = ""
-      }
+      };
 
       const res = await fetch("/api/updatePlotData", {
         method: "POST",
         body: JSON.stringify(data),
         headers: {
-          "Content-Type": "application/json"
-        }
-      })
+          "Content-Type": "application/json",
+        },
+      });
 
-      const responseBody = await res.json()
+      const responseBody = await res.json();
 
       if (res.status === 200) {
-        document.location.href = "/admin"
+        document.location.href = "/admin";
       } else {
-        alert(responseBody.msg)
+        alert(responseBody.msg);
       }
     }
   }
@@ -119,7 +112,7 @@
               class="uppercase tracking-wide text-black text-xs font-bold mb-2"
               for="customer"
             >
-              Customer Name*
+              Customer Name
             </label>
             <input
               class="w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3"
@@ -129,13 +122,6 @@
               value={queryParams.name}
               on:input={handleCustomerChange}
             />
-            {#if showErrorCustomer && customerName === ""}
-              <div>
-                <span class="text-red-500 text-xs italic">
-                  Please fill out this field.
-                </span>
-              </div>
-            {/if}
           </div>
 
           <!-- Plot Area Field -->
