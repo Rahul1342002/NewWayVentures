@@ -893,6 +893,12 @@
     box-shadow: var(--shadow-1);
   }
 
+  @media screen and (max-width:550px){
+  .features-card{
+  padding:40px 15px;
+  }
+  }
+
   .features-card:is(:hover, :focus) { background: var(--orange-soda); }
 
   .features-card .card-icon {
