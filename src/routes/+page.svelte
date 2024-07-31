@@ -73,7 +73,7 @@
           </button>
           <ul class="ml-4 {showDropDown ? 'block' : 'hidden'} leading-[50px]">
             <li><a href="/aero-commercial" class="mt-4">Aero Commercial</a></li>
-            <li><a href="#">Garuda</a></li>
+            <!-- <li><a href="#">Garuda</a></li> -->
           </ul>
         </li>
       </ul>
