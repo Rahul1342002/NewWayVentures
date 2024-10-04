@@ -16,18 +16,63 @@
 
   let showSideNav = false;
   let showDropDown = false;
-
+  let opacity = 1; // starting opacity
+  const totalDays = 45; // Number of days to fade out after the due date
+  const dueDate = new Date('2024-09-01'); // Set your due date here
+  
+  // Toggle side navigation
   function toggleSideNav() {
     showSideNav = !showSideNav;
   }
 
+  // Toggle dropdown
   function toggleDropDown() {
     showDropDown = !showDropDown;
   }
+
+  // Calculate the days since the due date
+  function calculateDaysSinceDue() {
+    const currentDate = new Date();
+    
+    // Ensure dueDate is a valid date
+    if (!(dueDate instanceof Date) || isNaN(dueDate.getTime())) {
+      console.error('Invalid due date');
+      return 0; // Default to no fading
+    }
+
+    // Time difference in milliseconds
+    const timeDiff = currentDate.getTime() - dueDate.getTime();
+
+    // Calculate the number of days since the due date
+    const daysSinceDue = Math.floor(timeDiff / (1000 * 60 * 60 * 24)); // Convert milliseconds to days
+
+    return daysSinceDue;
+  }
+
+  // Decrease opacity gradually after due date
+  function updateOpacity() {
+    const daysSinceDue = calculateDaysSinceDue();
+    
+    if (daysSinceDue > 0) {
+      // Calculate opacity based on days since due date
+      opacity = Math.max(0, 1 - (daysSinceDue / totalDays)); // Fade out linearly
+    } else {
+      opacity = 1; // Full opacity before the due date
+    }
+  }
+
+  // Call updateOpacity on mount and once per day
+  updateOpacity();
+  const interval = setInterval(() => {
+    updateOpacity();
+    if (opacity <= 0) {
+      clearInterval(interval);
+    }
+  }, 1000 * 60 * 60 * 24); // Update every day
 </script>
 
-<section class="paymentdue">
-  <div class="">
+<section class="paymentdue" style="opacity: {opacity}; transition: opacity 1s ease-out;">
+  <div>
     <Navbar />
     <Hero />
     <About />
@@ -43,7 +88,7 @@
   </div>
 </section>
 
-<div class="w-full relative">
+<div class="w-full relative paymentdue" style="opacity: {opacity}; transition: opacity 1s ease-out;">
   <a
     href="#"
     on:click={toggleSideNav}
@@ -61,27 +106,18 @@
         </svg>
       </button>
       <ul>
-        <!-- Add your ongoing projects here -->
-        <!-- <li><a href="/aero-commercial">Aero Commercial</a></li> -->
-        <!-- Add more ongoing projects as needed -->
         <li>
-          <button class="flex items-center justify-between w-full py-2 px-3 mt-5 text-gray-300 hover:text-white focus:outline-none  " on:click={toggleDropDown}>
+          <button class="flex items-center justify-between w-full py-2 px-3 mt-5 text-gray-300 hover:text-white focus:outline-none" on:click={toggleDropDown}>
             <span class="font-bold underline">BHOGAPURAM</span>
-            <svg class="w-6 h-6 transform transition-transform duration-300 {showDropDown ? 'rotate-90' : ''}" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" >
+            <svg class="w-6 h-6 transform transition-transform duration-300 {showDropDown ? 'rotate-90' : ''}" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
             </svg>
           </button>
           <ul class="ml-4 {showDropDown ? 'block' : 'hidden'} leading-[50px]">
             <li><a href="/aero-commercial" class="mt-4">Aero Commercial</a></li>
-            <!-- <li><a href="#">Garuda</a></li> -->
           </ul>
         </li>
       </ul>
     </div>
   {/if}
 </div>
-
-<style>
-  .fly-in { transform: translateX(0); }
-  .fly-out { transform: translateX(100%); }
-</style>
