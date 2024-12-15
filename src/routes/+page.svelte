@@ -71,7 +71,7 @@
   }, 1000 * 60 * 60 * 24); // Update every day
 </script>
 
-<section class="paymentdue" style="opacity: {opacity}; transition: opacity 1s ease-out;">
+<section class="" style=" transition: opacity 1s ease-out;">
   <div>
     <Navbar />
     <Hero />
