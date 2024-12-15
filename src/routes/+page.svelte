@@ -88,7 +88,7 @@
   </div>
 </section>
 
-<div class="w-full relative paymentdue" style="opacity: {opacity}; transition: opacity 1s ease-out;">
+<div class="w-full relative " style=" transition: opacity 1s ease-out;">
   <a
     href="#"
     on:click={toggleSideNav}
